@@ -1,0 +1,96 @@
+.logo{
+    width: 4%;
+    float: left;
+    margin: auto;
+}
+*{
+  text-align: left !important;
+}
+nav{
+    margin-bottom: 100px;
+}
+ul {
+    list-style-type: none;
+    width: 300px;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(13, 57, 95);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: rgb(34, 146, 243);
+  }
+  section{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+#livres {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#one-book{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 320px;
+    background-color: rgba(34, 154, 252, 0.212);
+    display: flex;
+    flex-direction: column;
+}
+#one-book img {
+    width: 300px;
+    margin: auto;
+}
+#panier-one-book img {
+  width: 85px;
+}
+#panier-one-book{
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: rgba(34, 154, 252, 0.212);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.titre{
+    padding-left: 10px;
+}
+.details{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-panier{
+    display: block;
+    background-color: rgb(34, 146, 243);
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+.vos-livres{
+  border-right: 2px solid rgb(22, 22, 105);
+  padding-right: 20px;
+}
+.prix-initial{
+  text-decoration: line-through;
+}
+h2 .prix-reduc{
+  color: red !important;
+}
